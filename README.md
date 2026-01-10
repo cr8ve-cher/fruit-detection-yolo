@@ -1,0 +1,33 @@
+# Fruit Detection using YOLO11
+
+This project explores computer vision using a custom-trained YOLO11 model to detect fruits in images.
+The goal was to understand the end-to-end object detection pipeline, from dataset creation to model training and inference.
+
+## Dataset
+- Custom dataset consisting of three classes: Apple, Banana, and Grapes
+- Images sourced from a larger dataset and manually curated
+- Bounding boxes annotated using Roboflow
+- Exported in YOLO format with a data.yaml configuration file
+
+## Model and Training
+- Model: YOLO11s
+- Optimizer: AdamW
+- Learning rate and early stopping were tuned for stability
+- Data augmentation applied (HSV, scale, translation, mosaic)
+- Trained for up to 80 epochs on Google Colab GPU
+
+## Results
+Training artifacts are stored in the train/ directory:
+- best.pt: best-performing trained weights
+- results.png: visualization of loss and mAP metrics
+- args.yaml: training configuration
+
+## Inference and Export
+The trained model was exported and tested locally using VS Code.
+Inference was performed on custom images to validate real-world performance.
+
+## Tools Used
+- Ultralytics YOLO
+- PyTorch
+- Google Colab (GPU)
+- Roboflow
