@@ -9,6 +9,9 @@ The goal was to understand the end-to-end object detection pipeline, from datase
 - Bounding boxes annotated using Roboflow
 - Exported in YOLO format with a data.yaml configuration file
 
+Link to Dataset on Roboflow
+https://tinyurl.com/mfnxc5p8
+
 ## Model and Training
 - Model: YOLO11s
 - Optimizer: AdamW
@@ -16,11 +19,15 @@ The goal was to understand the end-to-end object detection pipeline, from datase
 - Data augmentation applied (HSV, scale, translation, mosaic)
 - Trained for up to 80 epochs on Google Colab GPU
 
+Link to Google Collab
+https://tinyurl.com/ynba6nxx
+
 ## Results
 Training artifacts are stored in the train/ directory:
 - best.pt: best-performing trained weights
 - results.png: visualization of loss and mAP metrics
 - args.yaml: training configuration
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/69918506-6e29-4704-89db-ef01dbf77c26" />
 
 ## Inference and Export
 The trained model was exported and tested locally using VS Code.
