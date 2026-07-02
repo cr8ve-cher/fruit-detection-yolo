@@ -1,5 +1,10 @@
 # Fruit Detection using YOLO11
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![YOLO](https://img.shields.io/badge/YOLO-v11-green)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red)
+![License](https://img.shields.io/badge/License-MIT-yellow) 
+
 This project explores computer vision using a custom-trained YOLO11 model to detect fruits in images.
 The goal was to understand the end-to-end object detection pipeline, from dataset creation to model training and inference.
 
