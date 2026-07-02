@@ -14,6 +14,8 @@ The goal was to understand the end-to-end object detection pipeline, from datase
 - Bounding boxes annotated using Roboflow
 - Exported in YOLO format with a data.yaml configuration file
 
+<img width="1630" height="228" alt="Roboflow data set" src="https://github.com/user-attachments/assets/3261a3c8-eb41-4503-a70e-9817a68231d5" />
+
 Link to Dataset on Roboflow
 https://tinyurl.com/mfnxc5p8
 
